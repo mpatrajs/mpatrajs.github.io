@@ -37,6 +37,7 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <link rel="stylesheet" href="public/aos.css" />
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
@@ -166,7 +167,7 @@
               />
             </div>
           </header>
-          <div class="home-hero-content">
+          <div class="home-hero-content" data-aos="fade-up">
             <h1 class="home-text11">История дружбы</h1>
             <span class="home-text12">
               Ценные воспоминания и моменты проведённые вместе
@@ -602,6 +603,10 @@
         </div>
       </div>
     </div>
+    <script src="public/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       data-section-id="navbar"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"

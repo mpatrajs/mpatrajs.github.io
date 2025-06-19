@@ -36,6 +36,7 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <link rel="stylesheet" href="public/aos.css" />
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
@@ -49,7 +50,7 @@
 
       <div class="not-found-container">
         <h3>OOPS! PAGE NOT FOUND</h3>
-        <div class="not-found-container1">
+        <div class="not-found-container1" data-aos="zoom-in">
           <h1 class="not-found-text1">404</h1>
         </div>
         <div class="not-found-container2">
@@ -59,6 +60,10 @@
         </div>
       </div>
     </div>
+    <script src="public/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       data-section-id="navbar"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
